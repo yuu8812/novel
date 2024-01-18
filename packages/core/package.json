@@ -20,8 +20,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "check-types": "tsc --noEmit",
-    "postinstall": "npm run build"
+    "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
     "react": "^18.2.0"
